@@ -11,4 +11,4 @@ for(i=0;i<4;i++)
 {
 	line[i].line_index=i+1;
 }
-alarm[0]=room_speed;
+alarm[0]=1;
