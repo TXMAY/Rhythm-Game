@@ -37,7 +37,7 @@
     {"id":{"name":"spr_hitline","path":"sprites/spr_hitline/spr_hitline.yy",},},
     {"id":{"name":"obj_note","path":"objects/obj_note/obj_note.yy",},},
     {"id":{"name":"obj_hitline","path":"objects/obj_hitline/obj_hitline.yy",},},
-    {"id":{"name":"obj_global","path":"objects/obj_global/obj_global.yy",},},
+    {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"spr_note","path":"sprites/spr_note/spr_note.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

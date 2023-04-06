@@ -19,6 +19,6 @@
   "ResourceOrderSettings": [
     {"name":"spr_hitline","order":1,"path":"sprites/spr_hitline/spr_hitline.yy",},
     {"name":"obj_hitline","order":1,"path":"objects/obj_hitline/obj_hitline.yy",},
-    {"name":"obj_global","order":2,"path":"objects/obj_global/obj_global.yy",},
+    {"name":"obj_game","order":2,"path":"objects/obj_game/obj_game.yy",},
   ],
 }
