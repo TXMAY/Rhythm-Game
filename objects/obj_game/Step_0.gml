@@ -1,6 +1,6 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
-time=current_time/1000
+time=current_time/1000-3.0;
 
 if(keyboard_check_pressed(vk_left)||keyboard_check_pressed(vk_up)||mouse_wheel_up()||mouse_check_button_pressed(mb_left))
 {
@@ -21,7 +21,7 @@ if(keyboard_check_pressed(vk_right)||keyboard_check_pressed(vk_down)||mouse_whee
 if(i<ds_list_size(notes_list))
 {
 	note=ds_list_find_value(notes_list,i);
-	note_time=real(ds_list_find_value(note,0));
+	note_time=real(ds_list_find_value(note,0))-1.0;
 	note_pos=real(ds_list_find_value(note,1));
 	
 	if(time-start_time>=note_time)

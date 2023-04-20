@@ -28,6 +28,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
   "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"note.json","CopyToMask":-1,"filePath":"datafiles/data",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"note.json","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "isEcma": false,
@@ -37,6 +38,7 @@
   },
   "resources": [
     {"id":{"name":"spr_hitline","path":"sprites/spr_hitline/spr_hitline.yy",},},
+    {"id":{"name":"snd_song","path":"sounds/snd_song/snd_song.yy",},},
     {"id":{"name":"obj_note","path":"objects/obj_note/obj_note.yy",},},
     {"id":{"name":"obj_hitline","path":"objects/obj_hitline/obj_hitline.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},

@@ -28,7 +28,7 @@ for(i=0;i<4;i++)
 //show_message(typeof(biMap));
 //}else{ show_message("failed") ; }
 
-json_file=file_text_open_read(working_directory+"note.json");
+json_file=file_text_open_read(working_directory+"data/note.json");
 show_debug_message(json_file);
 json_data="";
 while(!file_text_eof(json_file))	// 파일 내용을 읽을 때, 엔터가 되어 있으면 한 문장만 읽고 끝내서(;;)while문으로 끝까지 돌리기
@@ -47,3 +47,4 @@ show_debug_message(notes_list);
 //https://cafe.naver.com/crazygm/228147 참고
 
 i=0;
+alarm[0]=room_speed*3;
