@@ -2,5 +2,6 @@
 // 이 에디터에 코드를 작성할 수 있습니다
 if(y>=room_height*1.1)
 {
+	global.combo=0;
 	instance_destroy();
 }

@@ -4,6 +4,7 @@ if(keyboard_check_pressed(vk_space))
 {
 	if(obj_game.line_index==other.line_index)
 	{
+		global.combo+=1;
 		instance_destroy();
 	}
 }
