@@ -1,8 +1,8 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
-//draw_set_halign(fa_center);
-//draw_set_color(c_white);
-//draw_text_transformed(room_width/2,room_height/2,global.combo,3,3,0);
+draw_set_halign(fa_center);
+draw_set_color(c_white);
+draw_text_transformed(room_width/2,room_height/2,global.combo,3,3,0);
 draw_set_color(c_black);
 draw_set_alpha(0.5);
 //draw_rectangle(0,0,room_width,room_height,false);
